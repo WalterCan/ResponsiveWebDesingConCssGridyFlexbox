@@ -39,15 +39,21 @@ h1 {
 }
 
 /** CODIGO AQUI **/
-
+/* Tres columnas iguales con Display Flex */
 @media (min-width: 768px) {
   .tres-columnas {
     display: flex;
+    gap: 2rem;
+  }
+}
+/* Tres columnas con más soporte */
+
+/* @media (min-width: 768px) {
+  .tres-columnas {
+    display: flex;
     justify-content: space-between;
-    /* gap: 2rem;   menos codigo y menos soporte  */
   }
   .entrada-blog {
     flex: 0 0 calc(33.3% - 1rem);
   }
-  /* Más codigo = más soporte  */
-}
+} */

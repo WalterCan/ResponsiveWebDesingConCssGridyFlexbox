@@ -39,6 +39,7 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+/* Posicionando tres columnas con Display Grid */
 @media (min-width: 768px) {
   .tres-columnas {
     display: grid;

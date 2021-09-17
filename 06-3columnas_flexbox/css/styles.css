@@ -48,7 +48,7 @@ p {
 }
 
 /** CODIGO AQUI **/
-
+/* Tres Columnas, una más grande con Display Flex */
 @media (min-width: 768px) {
   .contenedor-flex {
     display: flex;
@@ -61,6 +61,6 @@ p {
     flex-basis: calc(20% - 1rem);
   }
   .sidebar-1 {
-    order: -1; /*con ésto va a mostrar el contenido primero y luego lo demas va a flui dependendiendo de como fueron declaradas*/
+    order: -1;
   }
 }

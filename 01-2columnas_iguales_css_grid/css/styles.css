@@ -39,12 +39,11 @@ h1 {
 }
 
 /** CODIGO AQUI **/
-
+/* posiciono dos columnas con Css Grid  */
 @media (min-width: 768px) {
-  .dos-columnas {
+  .contenedor {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    column-gap: 2rem;
   }
 }
-/* Dos columnas iguales con responsive web desing Grid! */
