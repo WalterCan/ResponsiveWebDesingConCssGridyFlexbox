@@ -52,10 +52,13 @@ p {
   .colum-drop-flex {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /*para posicionar la tercer columna debajo */
+    gap: 2rem;
+    /* Con éste comando posicionamos fila restante debajo de los demas */
+    flex-wrap: wrap;
   }
   .contenido-principal,
   .primera {
+    /* Dividir la fila superior en 2  */
     flex-basis: calc(50% - 1rem);
   }
 }
@@ -63,6 +66,7 @@ p {
   .contenido-principal,
   .primera,
   .segunda {
+    /* coloramos tres columnas, una la lado de la otra */
     flex: 0 0 calc(33.3% - 2rem);
   }
 }
