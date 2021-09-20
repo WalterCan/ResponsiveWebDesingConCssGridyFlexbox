@@ -53,9 +53,6 @@ p {
     display: grid;
     grid-template-columns: 3fr 1fr;
     column-gap: 4rem;
-    grid-auto-flow: column;
-  }
-  aside {
-    grid-column: 2/3;
+    /* grid-auto-flow: column;  le dice a grid que posicione en columnas automaticamente.    */
   }
 }
