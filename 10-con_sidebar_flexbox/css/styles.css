@@ -53,6 +53,7 @@ p {
     display: flex;
     gap: 3rem;
   }
+  /*Agregamos el factor de crecimiento, por cada PX que recibe el Aside, El Article recibe 3  */
   aside {
     flex: 1;
   }
